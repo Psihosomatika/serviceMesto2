@@ -1,0 +1,8 @@
+.user-info__icon {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  fill: #fff;
+}

@@ -1,0 +1,9 @@
+.user-info__photo {
+  background-image: url(../../../images/photo.jpg);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  background-size: contain;
+  margin-right: 30px;
+  align-self: center;
+}

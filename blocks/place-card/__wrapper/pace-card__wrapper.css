@@ -1,0 +1,8 @@
+.pace-card__wrapper {
+  background-color: #fff;
+  width: 276px;
+  padding: 0 3px;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-around;
+}

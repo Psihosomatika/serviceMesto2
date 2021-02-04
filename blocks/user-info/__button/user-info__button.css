@@ -1,0 +1,15 @@
+.user-info__button {
+  background-color:transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  align-self: center;
+}
+.user-info__button:hover {
+  cursor: pointer;
+  opacity: .90;
+}
+

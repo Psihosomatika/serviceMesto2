@@ -1,0 +1,12 @@
+.user-info__name {
+  font-size: 42px;
+  line-height: 48px;
+  display: flex;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .user-info__name {
+    font-size: 38px;
+  }
+}

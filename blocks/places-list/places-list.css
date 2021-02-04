@@ -1,0 +1,16 @@
+.places-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1285px) {
+  .places-list {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 660px) {
+  .places-list {
+    max-width: 560px;
+    justify-content: center;
+  }
+}

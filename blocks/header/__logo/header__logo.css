@@ -3,3 +3,10 @@
   width: 142px;
   height: 33px;
 }
+
+@media screen and (max-width: 980px) {
+  .header__icon {
+    width: 102px;
+    height: 24px;
+  }
+}

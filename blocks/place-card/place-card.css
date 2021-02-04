@@ -1,0 +1,45 @@
+@import url(./__text/pace-card__text.css);
+@import url(./__wrapper/pace-card__wrapper.css);
+@import url(./__icon/pace-card__icon.css);
+@import url(./__image/pace-card__image.css);
+
+.place-card {
+  width: 282px;
+  height: 361px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.place-card:nth-child(3n-2) {
+  margin-right: 17px;
+}
+
+.place-card:nth-child(3n) {
+  margin-left: 17px;
+}
+
+@media screen and (max-width: 1285px) {
+  .place-card:nth-child(3n-2) {
+    margin-right: 0;
+  }
+  .place-card:nth-child(3n) {
+    margin-left: 0;
+  }
+  .place-card:nth-child(2n+1) {
+    margin-right: 26px;
+  }
+}
+@media screen and (max-width: 659px) {
+  .place-card:nth-child(3n-2) {
+    margin-right: 0;
+  }
+  .place-card:nth-child(3n) {
+    margin-left: 0;
+  }
+  .place-card:nth-child(2n+1) {
+    margin-right: 0;
+  }
+
+}

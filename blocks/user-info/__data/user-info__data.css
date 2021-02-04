@@ -1,0 +1,6 @@
+.user-info__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 22px;
+}
