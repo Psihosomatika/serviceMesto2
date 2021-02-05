@@ -1,7 +1,7 @@
-@import url(./__text/pace-card__text.css);
-@import url(./__wrapper/pace-card__wrapper.css);
-@import url(./__icon/pace-card__icon.css);
-@import url(./__image/pace-card__image.css);
+@import url(./__text/place-card__text.css);
+@import url(./__wrapper/place-card__wrapper.css);
+@import url(./__icon/place-card__icon.css);
+@import url(./__image/place-card__image.css);
 
 .place-card {
   width: 282px;

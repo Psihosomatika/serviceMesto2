@@ -1,0 +1,6 @@
+.place-card__text {
+  font-size: 23px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

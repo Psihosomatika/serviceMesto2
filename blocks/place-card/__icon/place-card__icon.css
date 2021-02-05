@@ -1,0 +1,20 @@
+@import url(../__icon/_active/place-card__icon_active.css);
+
+.place-card__icon {
+  background-image: url(../../../images/like.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 22px;
+  height: 19px;
+  align-self: center;
+}
+
+.place-card__icon_active {
+  background-image: url(../../../../images/likeActive.png);
+}
+
+.place-card__icon:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
